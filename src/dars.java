@@ -1,12 +1,14 @@
-
 public class dars {
-
     public static void main(String[] args) {
-        System.out.println(2+3*4);
+        encapsulation s = new encapsulation();
+        s.setName("SAYILXON");
+        s.setSurname("YO'LDASHEV");
+        s.setEmail("sayilxon8@gmail.com");
+
+        System.out.println(s.getName());
+        System.out.println(s.getSurname());
+        System.out.println(s.getEmail());
     }
 
-    public static int km(int m) {
-        return(m * 100);
-    }
 
 }
